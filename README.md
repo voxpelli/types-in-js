@@ -10,18 +10,6 @@ Something that might have passed you by: TypeScript supports JavaScript. (In fac
 
 Set `allowJs: true` and optionally `checkJs: true` in your `tsconfig.json` (or add a [`jsconfig.json`](https://code.visualstudio.com/docs/languages/jsconfig)) and you're up and running.
 
-## TSConfig / JSConfig tips
+## Discussions, questions and best practices
 
-...
-
-## CI / linting tips
-
-...
-
-## JSDoc syntax tips
-
-...
-
-## 🚧 Under construction
-
-This README is under construction by @voxpelli and @raynos. All help is appreciated.
+Can be found in the [GitHub discussions](https://github.com/voxpelli/types-in-js/discussions) of this repo
