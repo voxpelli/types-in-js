@@ -16,11 +16,11 @@ Can be found in the [GitHub discussions](https://github.com/voxpelli/types-in-js
 
 ## TSConfig / JSConfig tips
 
-...
+See [open discussion](https://github.com/voxpelli/types-in-js/discussions/2)
 
 ## CI / linting tips
 
-...
+See [open discussion](https://github.com/voxpelli/types-in-js/discussions/3)
 
 ## JSDoc syntax tips
 
