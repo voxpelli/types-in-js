@@ -13,3 +13,17 @@ Set `allowJs: true` and optionally `checkJs: true` in your `tsconfig.json` (or a
 ## Discussions, questions and best practices
 
 Can be found in the [GitHub discussions](https://github.com/voxpelli/types-in-js/discussions) of this repo
+
+## TSConfig / JSConfig tips
+
+...
+
+## CI / linting tips
+
+...
+
+## JSDoc syntax tips
+
+...
+
+## 🚧 Under construction
