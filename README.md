@@ -26,4 +26,8 @@ See [open discussion](https://github.com/voxpelli/types-in-js/discussions/3)
 
 ...
 
+## Managing third party dependencies
+
+See [open discussion](https://github.com/voxpelli/types-in-js/discussions/7)
+
 ## 🚧 Under construction
