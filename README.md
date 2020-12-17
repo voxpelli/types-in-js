@@ -1,3 +1,5 @@
+![](https://repository-images.githubusercontent.com/319930104/c9855880-409b-11eb-9ba4-dbe674e21163)
+
 # Types in JavaScript
 
 If you love types but not transpiling, then using TypeScript itself won't be your cup of tea, but there are other approaches you can take to get pretty close.
