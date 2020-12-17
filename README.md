@@ -1,4 +1,4 @@
-![](https://repository-images.githubusercontent.com/319930104/c9855880-409b-11eb-9ba4-dbe674e21163)
+![](https://repository-images.githubusercontent.com/319930104/3568c080-409e-11eb-819f-2161d7a301a6)
 
 # Types in JavaScript
 
