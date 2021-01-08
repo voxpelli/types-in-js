@@ -26,6 +26,8 @@ See [open discussion](https://github.com/voxpelli/types-in-js/discussions/3)
 
 ## JSDoc syntax tips
 
+There's a [cheatsheet available](https://devhints.io/jsdoc)
+
 ...
 
 ## Managing third party dependencies
