@@ -6,11 +6,21 @@ If you love types but not transpiling, then using TypeScript itself won't be you
 
 ## How
 
-JSDoc validated and parsed by TypeScript.
+Something that might have passed you by: [TypeScript supports JavaScript](https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html) and it support a couple of [JSDoc annonations](https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html) that helps you annotate your JavaScript in such a way that it can properly validate it for you.
 
-Something that might have passed you by: TypeScript supports JavaScript. (In fact, TypeScript is what drives the JavaScript tools like Intellisense in VS Code)
+In fact, TypeScript is what drives the JavaScript tools in Visual Studio Code and what is responsible for [its intellisense](https://code.visualstudio.com/docs/nodejs/working-with-javascript#_intellisense).
 
-Set `allowJs: true` and optionally `checkJs: true` in your `tsconfig.json` (or add a [`jsconfig.json`](https://code.visualstudio.com/docs/languages/jsconfig)) and you're up and running.
+### Some quick steps
+
+1. Add a [`tsconfig.json`](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) with eg. [`allowJs: true`](https://www.typescriptlang.org/tsconfig#allowJs) or add a [`jsconfig.json`](https://code.visualstudio.com/docs/languages/jsconfig) instead, which implies `allowJs: true`.
+
+2. Then point it to your javascript files by using [`files`](https://www.typescriptlang.org/tsconfig#files) and/or [`include`](https://www.typescriptlang.org/tsconfig#include) properties.
+
+3. Lastly either set [`checkJs: true`](https://www.typescriptlang.org/tsconfig#checkJs) in it, to have all of those files checked, or selectively add `// @ts-check` to the top of the files you want to check.
+
+4. (optional) Add some other useful / needed configurations, see [TSConfig / JSConfig tips](#tsconfig--jsconfig-tips).
+
+4. (optional) Install [`typescript`](https://www.npmjs.com/package/typescript) locally in your project (`npm install typescript`), then validate your project using `npx tsc` ([`tsc`](https://www.typescriptlang.org/docs/handbook/compiler-options.html) is the name of the CLI supplied by `typescript`). `tsc` can preferably be run as a part of your test scripts, locally and on CI. See [CI / linting tips](#ci--linting--additional-tools)
 
 ## Discussions, questions and best practices
 
@@ -18,9 +28,9 @@ Can be found in the [GitHub discussions](https://github.com/voxpelli/types-in-js
 
 ## TSConfig / JSConfig tips
 
-See [open discussion](https://github.com/voxpelli/types-in-js/discussions/2)
+See [open discussion](https://github.com/voxpelli/types-in-js/discussions/2) as well as [base configs](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#tsconfig-bases) to extend from.
 
-## CI / linting tips
+## CI / linting / additional tools
 
 See [open discussion](https://github.com/voxpelli/types-in-js/discussions/3)
 
