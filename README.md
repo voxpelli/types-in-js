@@ -4,6 +4,10 @@
 
 If you love types but not transpiling, then using TypeScript itself won't be your cup of tea, but there are other approaches you can take to get pretty close.
 
+## Discussions, questions and best practices (see our [GitHub discussions](https://github.com/voxpelli/types-in-js/discussions))
+
+This repo exists mainly to promote a discussion around this topic – exchange experiences, share best practices and tips and ask for help on tricky parts. The discussions is found in the [GitHub discussions](https://github.com/voxpelli/types-in-js/discussions) of this repo
+
 ## How
 
 Something that might have passed you by: [TypeScript supports JavaScript](https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html) and it support a couple of [JSDoc annonations](https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html) that helps you annotate your JavaScript in such a way that it can properly validate it for you.
@@ -21,10 +25,6 @@ In fact, TypeScript is what drives the JavaScript tools in Visual Studio Code an
 4. (optional) Add some other useful / needed configurations, see [TSConfig / JSConfig tips](#tsconfig--jsconfig-tips).
 
 4. (optional) Install [`typescript`](https://www.npmjs.com/package/typescript) locally in your project (`npm install typescript`), then validate your project using `npx tsc` ([`tsc`](https://www.typescriptlang.org/docs/handbook/compiler-options.html) is the name of the CLI supplied by `typescript`). `tsc` can preferably be run as a part of your test scripts, locally and on CI. See [CI / linting tips](#ci--linting--additional-tools)
-
-## Discussions, questions and best practices
-
-Can be found in the [GitHub discussions](https://github.com/voxpelli/types-in-js/discussions) of this repo
 
 ## TSConfig / JSConfig tips
 
@@ -44,4 +44,3 @@ There's a [cheatsheet available](https://devhints.io/jsdoc)
 
 See [open discussion](https://github.com/voxpelli/types-in-js/discussions/7)
 
-## 🚧 Under construction
