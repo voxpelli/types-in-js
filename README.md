@@ -26,6 +26,10 @@ In fact, TypeScript is what drives the JavaScript tools in Visual Studio Code an
 
 4. (optional) Install [`typescript`](https://www.npmjs.com/package/typescript) locally in your project (`npm install typescript`), then validate your project using `npx tsc` ([`tsc`](https://www.typescriptlang.org/docs/handbook/compiler-options.html) is the name of the CLI supplied by `typescript`). `tsc` can preferably be run as a part of your test scripts, locally and on CI. See [CI / linting tips](#ci--linting--additional-tools)
 
+## Articles
+
+* [TypeScript without TypeScript -- JSDoc superpowers](https://fettblog.eu/typescript-jsdoc-superpowers/) by [@ddprrt](https://github.com/ddprrt)
+
 ## TSConfig / JSConfig tips
 
 See [open discussion](https://github.com/voxpelli/types-in-js/discussions/2) as well as [base configs](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#tsconfig-bases) to extend from.
