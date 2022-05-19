@@ -4,9 +4,21 @@
 
 If you love types but not transpiling, then using TypeScript itself won't be your cup of tea, but there are other approaches you can take to get pretty close.
 
-## Join our [GitHub discussions](https://github.com/voxpelli/types-in-js/discussions)!
+## Participate
+
+### Join our [GitHub discussions](https://github.com/voxpelli/types-in-js/discussions)!
 
 This repo exists mainly to promote a discussion around this topic – exchange experiences, share best practices and tips and ask for help on tricky parts. The discussions is found in the [GitHub discussions](https://github.com/voxpelli/types-in-js/discussions) of this repo
+
+### Is there a readme badge?
+
+Yes! If you use types in plain JS in your project, you can include thise badge in your readme to let people know that your code is typed without relying on TypeScript syntax.
+
+[![Types in JS](https://img.shields.io/badge/Types_in_JS-Yes-FF057C)](https://github.com/voxpelli/types-in-js)
+
+```md
+[![Types in JS](https://img.shields.io/badge/Types_in_JS-Yes-FF057C)](https://github.com/voxpelli/types-in-js)
+```
 
 ## How to use types in JavaScript
 
