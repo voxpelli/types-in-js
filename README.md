@@ -14,10 +14,10 @@ This repo exists mainly to promote a discussion around this topic – exchange e
 
 Yes! If you use types in plain JS in your project, you can include thise badge in your readme to let people know that your code is typed without relying on TypeScript syntax.
 
-[![Types in JS](https://img.shields.io/badge/Types_in_JS-Yes-FF057C)](https://github.com/voxpelli/types-in-js)
+[![Types in JS](https://img.shields.io/badge/types_in_js-yes-FF057C)](https://github.com/voxpelli/types-in-js)
 
 ```md
-[![Types in JS](https://img.shields.io/badge/Types_in_JS-Yes-FF057C)](https://github.com/voxpelli/types-in-js)
+[![Types in JS](https://img.shields.io/badge/types_in_js-yes-FF057C)](https://github.com/voxpelli/types-in-js)
 ```
 
 ## How to use types in JavaScript
