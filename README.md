@@ -28,13 +28,13 @@ Since TypeScript is what drives the JavaScript tools in Visual Studio Code and [
 
 ### Getting started
 
-1. Add a [`tsconfig.json`](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) with eg. [`allowJs: true`](https://www.typescriptlang.org/tsconfig#allowJs) or add a [`jsconfig.json`](https://code.visualstudio.com/docs/languages/jsconfig) instead, which implies `allowJs: true` (Update 2024-02-29: It appears like `jsconfig.json` now implies [much more](https://github.com/eslint/eslint/issues/18100#issuecomment-1971500684)).
+1. Add a [`tsconfig.json`](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) with eg. [`allowJs: true`](https://www.typescriptlang.org/tsconfig#allowJs) ~~or add a [`jsconfig.json`](https://code.visualstudio.com/docs/languages/jsconfig) instead, which implies `allowJs: true`~~ (Turns out that `jsconfig.json` implies a lot more than just `allowJs: true` and as such is not recommended. See discussion at https://github.com/voxpelli/types-in-js/discussions/25)
 
 2. Then point it to your javascript files by using [`files`](https://www.typescriptlang.org/tsconfig#files) and/or [`include`](https://www.typescriptlang.org/tsconfig#include) properties.
 
 3. Lastly either set [`checkJs: true`](https://www.typescriptlang.org/tsconfig#checkJs) in it, to have all of those files checked, or selectively add `// @ts-check` to the top of the files you want to check.
 
-4. (optional) Add some other useful / needed configurations, see [TSConfig / JSConfig tips](#tsconfig--jsconfig-tips).
+4. (optional) Add some other useful / needed configurations, see [TSConfig tips](#tsconfig-tips).
 
 4. (optional) Install [`typescript`](https://www.npmjs.com/package/typescript) locally in your project (`npm install typescript`), then validate your project using `npx tsc` ([`tsc`](https://www.typescriptlang.org/docs/handbook/compiler-options.html) is the name of the CLI supplied by `typescript`). `tsc` can preferably be run as a part of your test scripts, locally and on CI. See [CI / linting tips](#ci--linting--additional-tools)
 
@@ -42,7 +42,7 @@ Since TypeScript is what drives the JavaScript tools in Visual Studio Code and [
 
 * [TypeScript without TypeScript -- JSDoc superpowers](https://fettblog.eu/typescript-jsdoc-superpowers/) by [@ddprrt](https://github.com/ddprrt)
 
-## TSConfig / JSConfig tips
+## TSConfig tips
 
 See [open discussion](https://github.com/voxpelli/types-in-js/discussions/2) as well as [base configs](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#tsconfig-bases) to extend from.
 
