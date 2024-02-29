@@ -28,7 +28,7 @@ Since TypeScript is what drives the JavaScript tools in Visual Studio Code and [
 
 ### Getting started
 
-1. Add a [`tsconfig.json`](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) with eg. [`allowJs: true`](https://www.typescriptlang.org/tsconfig#allowJs) ~~or add a [`jsconfig.json`](https://code.visualstudio.com/docs/languages/jsconfig) instead, which implies `allowJs: true`~~ (Turns out that `jsconfig.json` implies a lot more than just `allowJs: true` and as such is not recommended. See discussion at https://github.com/voxpelli/types-in-js/discussions/25)
+1. Add a [`tsconfig.json`](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) with eg. [`allowJs: true`](https://www.typescriptlang.org/tsconfig#allowJs) ~~or add a [`jsconfig.json`](https://code.visualstudio.com/docs/languages/jsconfig) instead, which implies `allowJs: true`~~ _(Turns out that `jsconfig.json` implies a lot more than just `allowJs: true` and as such is not recommended. See discussion at https://github.com/voxpelli/types-in-js/discussions/25)_
 
 2. Then point it to your javascript files by using [`files`](https://www.typescriptlang.org/tsconfig#files) and/or [`include`](https://www.typescriptlang.org/tsconfig#include) properties.
 
